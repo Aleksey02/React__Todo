@@ -1,0 +1,29 @@
+.calendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 38px;
+}
+.calendar__date{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.calendar__date-day{
+    font-size: 48px;
+    font-weight: 400;
+}
+.calendar__info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.calendar__date-month,
+.calendar__date-year{
+    font-size: 15px;
+    font-weight: 400;
+}
+.calendar__weekday{
+    font-size: 15px;
+    font-weight: 400;
+}
