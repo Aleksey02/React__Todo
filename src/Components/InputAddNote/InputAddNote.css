@@ -1,0 +1,29 @@
+.add-note{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #F4F4F4;
+    padding: 16px 15px 15px 38px;
+}
+.add-note__input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.add-note__input::placeholder{
+    color: #7C7C7C;
+}
+.add-note__btn{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.add-note__btn img{
+    display: block;
+}

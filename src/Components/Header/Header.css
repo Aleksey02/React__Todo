@@ -1,11 +1,9 @@
 .header{
     background: #000;
     padding: 26px 35px 18px;
-    
     color: #FFF;
-}
-.header__box{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+

@@ -10,11 +10,6 @@ li{
 a{
   text-decoration: none;
 }
-.container{
-  max-width: 1210px;
-  width: 100%;
-  margin: 0 auto;
-}
 body{
   font-family: 'Roboto Flex', sans-serif;
 }
