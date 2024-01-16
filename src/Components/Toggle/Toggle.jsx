@@ -1,10 +1,12 @@
 import './Toggle.css'
 
-export default function Toggle(){
+export default function Toggle({isThemeNote, setIsThemeNote}){
     return (
         <div className="toggle">
-            <div className="toggle__title">to-do list</div>
-            <input type="checkbox" />
+            <div className="toggle__title">todo {isThemeNote?'note':'list'}</div>
+            <div className={"toggle__box" + (isThemeNote?' active':'')} onClick={()=>setIsThemeNote(prev=>!prev)}>
+                <div className="toggle__box-round"></div>
+            </div>
         </div>
     )
 }

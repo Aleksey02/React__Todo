@@ -27,3 +27,6 @@
 .add-note__btn img{
     display: block;
 }
+.btn__add rect{
+    fill: "#B9FF98";
+}

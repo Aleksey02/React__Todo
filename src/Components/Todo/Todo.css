@@ -1,30 +1,32 @@
-.note{
+.todo{
     border-radius: 8px;
     background: #F4F4F4;  
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
-    gap: 4px;
-    padding: 24px 8px 7px 34px;
+    padding: 23px 20px 19px 15px;
 }
-
-.note__checkbox img{
+.todo__todo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.todo__checkbox svg{
     display: block;
 }
-.note__title{
+.todo__todo-title{
     color: #000;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 15px;
 }
-.note__title.active{
+.todo__todo-title.active{
     text-decoration: line-through;
 }
-.note__delete{
+.todo__delete{
     border: none;
     outline: none;
     background: transparent;
 }
-.note__delete img{
+.todo__delete img{
     display: block;
 }
