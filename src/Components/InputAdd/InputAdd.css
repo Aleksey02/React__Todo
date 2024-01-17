@@ -1,13 +1,14 @@
-.add-note{
+.add{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 15px;
     border-radius: 8px;
     background: #F4F4F4;
     padding: 16px 15px 15px 38px;
 }
-.add-note__input{
+.add__input{
     width: 100%;
     background: transparent;
     border: none;
@@ -16,17 +17,26 @@
     font-size: 16px;
     font-weight: 400;
 }
-.add-note__input::placeholder{
+.add__input::placeholder{
     color: #7C7C7C;
 }
-.add-note__btn{
+.add__btn{
     border: none;
     outline: none;
     background: transparent;
 }
-.add-note__btn img{
+.add__btn img{
     display: block;
 }
 .btn__add rect{
     fill: "#B9FF98";
+}
+.add__warning{
+    color: #ff0000;
+    text-align: center;
+    margin-top: 20px;
+}
+.add__input_note{
+    width: 390px;
+    word-wrap: break-word;
 }

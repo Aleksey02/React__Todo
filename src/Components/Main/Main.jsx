@@ -1,6 +1,6 @@
 import Note from '../Note/Note'
 import Todo from '../Todo/Todo'
-import InputAddNote from '../InputAddNote/InputAddNote'
+import InputAddNote from '../InputAdd/InputAdd'
 import { useState,  useEffect } from 'react'
 import './Main.css'
 
