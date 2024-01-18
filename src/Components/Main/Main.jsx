@@ -1,6 +1,7 @@
 import Note from '../Note/Note'
 import Todo from '../Todo/Todo'
-import InputAddNote from '../InputAdd/InputAdd'
+import InputAddTodo from '../InputAddTodo/InputAddTodo'
+import InputAddNote from '../InputAddNote/InputAddNote'
 import { useState,  useEffect } from 'react'
 import './Main.css'
 
@@ -19,14 +20,14 @@ export default function Main({isThemeNote}){
             <div className="container">
                 {!isThemeNote && 
                 <>
-                    <InputAddNote onClick={setTodos} placeholder="task"/>
+                    <InputAddTodo onClick={setTodos} placeholder="task"/>
                     <div className="notes__box">
                         { todos.map(todo=><Todo key={todo.id} todo={todo} setTodos={setTodos}/>)}
                     </div>
                 </>}
                 {isThemeNote && 
                 <>
-                    <InputAddNote onClick={setNotes} placeholder="note"/>
+                    <InputAddNote onClick={setNotes}/>
                     <div className="notes__box">
                         { notes.map(note=><Note key={note.id} note={note} setNotes={setNotes}/>)}
                     </div>

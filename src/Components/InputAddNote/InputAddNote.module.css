@@ -1,0 +1,36 @@
+.add{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    border-radius: 8px;
+    background: #F4F4F4;
+    padding: 16px 15px 15px 38px;
+}
+.add__input{
+    width: 100%;
+    height: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto Flex', sans-serif;
+    resize: none;
+}
+.add__input::placeholder{
+    color: #7C7C7C;
+}
+.add__btn{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.add__btn img{
+    display: block;
+}
+.btn__add rect{
+    fill: "#B9FF98";
+}
