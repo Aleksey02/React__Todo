@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import checkbox from '../../assets/checkbox.svg'
 import checkbox_active from '../../assets/checkbox_active.svg'
 import Btn_delete from '../Btn_delete/Btn_delete'
